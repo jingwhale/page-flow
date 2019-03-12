@@ -2,6 +2,8 @@
 
 _This plugin was created using `skpm`. For a detailed explanation on how things work, checkout the [skpm Readme](https://github.com/skpm/skpm/blob/master/README.md)._
 
+# Demo
+![examples-styleguide-palette](https://cdn.nlark.com/yuque/0/2019/png/120638/1552403373092-assets/web-upload/b1b06530-bfca-4a3a-bd40-fd062c9ba12b.png)
 ## Usage
 
 Install the dependencies
