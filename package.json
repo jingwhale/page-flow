@@ -1,0 +1,29 @@
+{
+  "name": "page-flow",
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "page-flow",
+    "manifest": "src/manifest.json",
+    "main": "page-flow.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.11",
+    "react": "^16.3.2",
+    "react-sketchapp": "^2.0.0",
+    "react-test-renderer": "^16.3.2",
+    "react-with-styles": "^1.4.0"
+  },
+  "author": "whaleExplorer <whaleExplorer@gmail.com>"
+}

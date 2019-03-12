@@ -1,0 +1,19 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Generate",
+      "identifier": "page-flow.generate-identifier",
+      "script": "./generate.js",
+      "shortcut" : "command option shift p"
+    }
+  ],
+  "menu": {
+    "title": "Page-flow",
+    "items": [
+      "page-flow.generate-identifier"
+    ]
+  }
+}
